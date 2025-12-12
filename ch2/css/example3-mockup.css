@@ -1,0 +1,48 @@
+body{
+    background-color: lightgray;
+}
+/* Containers */
+.container{
+    border: 1px solid black;
+    width: 80%;
+}
+.container-fluid{
+    border: 1px solid black;
+    width: 80%;
+}
+.aueb-text{
+    color: antiquewhite;
+    font-size: 1.2rem;
+    font-weight: 400px;
+}
+/* Backround Colours */
+.bg-dark{
+    background-color: black;
+}
+.bg-primary {
+    background-color: blue;
+}
+/* text styling */
+.text-white{
+    color: white;
+}
+/* image styling */
+.icon-small{
+    width: 150%;
+    height: auto;
+}
+/* List styling */
+.courses-wrapper>:first-child{
+    font-weight: bold;
+    color: red;
+
+}
+.courses-wrapper>:last-child{
+    color:green
+}
+.courses-list>:nth-child(odd){
+    color:blue;
+}
+.course-list>:nth-child (even){
+    color:green
+}
