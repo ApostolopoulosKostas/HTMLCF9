@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.blue-container {
+    width: 400px;
+    height: 500px;
+    background-color: cornflowerblue;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+}
+
+.white-container {
+    flex: 1;                 
+    background-color: white;
+    margin: 10px 15px 0px 10px;
+    }
+
+    .white-container>.login{
+        text-align: center;
+    }
+
+    .email{
+        margin-left: 20px;
+        
+    }
+
+    .password{
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    [type='submit'] {
+    margin: 10px 15px 10px 10px;       
+    padding: 10px 75px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    border: none;           /* optional: removes default border */
+}
+
+[type='submit']:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue; /* optional: adds border on hover */
+}
+.passlost{
+    margin: 200px 10px 30px 70px;
+    }
+    .signup{
+        margin-left: 30px;
+    }
+
+
+
+  
+
+
+    

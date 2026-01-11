@@ -1,0 +1,24 @@
+/*large*/
+@media(min-width:992px) and (max-width:1200px){
+    body{
+        background-color: green;
+    }
+}
+/*extra large*/
+@media (min-width:120px) and (max-width:1400px){
+    body{
+        background-color: red;
+    }
+}
+/*xx-large*/
+@media(min-width:1401px){
+    body{
+        background-color: blue;
+    }
+}
+/*xsmall ,small,medium*/
+@media(maxi-width:991px){
+    body{
+        background-color: yellow;
+    }
+}
